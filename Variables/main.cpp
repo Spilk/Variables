@@ -10,9 +10,27 @@
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+   /*
+    int x;
+    int y;
+    
+    x = 7;
+    y = x + 3;
+    std::cout << (y);
+    */
+    
+    /*
+    std::string myFirstName;
+    myFirstName = "Bob";
+    std::cout<< (myFirstName);
+    */
+    
+    //string myFirstName = "Bob";
+    
+    int x = 7;
+    std::string y = "5";
+    std::string myFirstTry = x.ToString() + y;
+    int mySecondTry = x + int.Parse(y);
+    //std::cout<< (myFirstTry);
+    std::cout<< (mySecondTry);
 }
-
