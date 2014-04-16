@@ -35,7 +35,7 @@ int main(int argc, const char * argv[])
             //loop for sin
                 {
             int y;
-            cout << "To calculate sine, please press 1. Press 0 to return.";
+            cout << "To calculate sine, please press 1. Press 0 to return.\n";
             cin >> y;
             for(; y > 0;)
                     {
@@ -46,7 +46,7 @@ int main(int argc, const char * argv[])
                 param = i;
                 result = sin (param*PI/180);
                 printf ("The sine of %f degrees is %f.\n", param, result );
-                cout << "To calculate again, press 1. To exit, press 0. ";
+                cout << "To calculate again, press 1. To exit, press 0.\n ";
                 cout << endl;
                 
                 cin >> y;
@@ -59,7 +59,7 @@ int main(int argc, const char * argv[])
             }
         if (f < x){
             int y;
-            cout << "To calculate cosine, please press 1. Press 0 to return.";
+            cout << "To calculate cosine, please press 1. Press 0 to return.\n";
             cin >> y;
             for(; y > 0;)
             {
@@ -70,7 +70,7 @@ int main(int argc, const char * argv[])
                 param = i;
                 result = cos (param*PI/180);
                 printf ("The cosine of %f degrees is %f.\n", param, result );
-                cout << "To calculate again, press 1. To exit, press 0. ";
+                cout << "To calculate again, press 1. To exit, press 0.\n ";
                 cout << endl;
                 
                 cin >> y;
@@ -79,7 +79,7 @@ int main(int argc, const char * argv[])
         }
     if (f == 0 ){
     int y;
-    cout << "To calculate Tangent, please press 1. Press 0 to return.";
+    cout << "To calculate Tangent, please press 1. Press 0 to return.\n";
     cin >> y;
     for(; y > 0;)
     {
@@ -90,7 +90,7 @@ int main(int argc, const char * argv[])
         param = i;
         result = tan (param*PI/180);
         printf ("The tangent of %f degrees is %f.\n", param, result );
-        cout << "To calculate again, press 1. To exit, press 0. ";
+        cout << "To calculate again, press 1. To exit, press 0.\n ";
         cout << endl;
         
         cin >> y;
