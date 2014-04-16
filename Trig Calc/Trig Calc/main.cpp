@@ -17,19 +17,21 @@ using namespace std;
 
 int main(int argc, const char * argv[])
 {
+for(;;)
+{
     /*int f;
     for(; f > 0;)
     {
     */
     int x;
     int f;
-     cout << "Please select 1 for 'sin' , -1 for 'cos', or 0 for 'tan'\n";
+     cout << "Please select 1 for 'sin' , 2 for 'cos', or 3 for 'tan'\n";
     cin >> f;
     
     x = 0;
    
     
-    if (f > x){
+    if (f == 1){
        
         for(;;)
             //loop for sin
@@ -61,7 +63,7 @@ int main(int argc, const char * argv[])
             int y;
             cout << "To calculate cosine, please press 1. Press 0 to return.\n";
             cin >> y;
-            for(; y > 0;)
+            for(; y == 2;)
             {
                 int i;
                 double param, result;
@@ -77,7 +79,7 @@ int main(int argc, const char * argv[])
             }
     
         }
-    if (f == 0 ){
+    if (f == 3 ){
     int y;
     cout << "To calculate Tangent, please press 1. Press 0 to return.\n";
     cin >> y;
@@ -96,4 +98,5 @@ int main(int argc, const char * argv[])
         cin >> y;
     }
     }
+}
 }
