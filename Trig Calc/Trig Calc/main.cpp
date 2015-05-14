@@ -74,7 +74,7 @@ for(;;)
                 printf ("The cosine of %f degrees is %f.\n", param, result );
                 cout << "To calculate again, press 1. To exit, press 0.\n ";
                 cout << endl;
-                
+            
                 cin >> y;
             }
     
